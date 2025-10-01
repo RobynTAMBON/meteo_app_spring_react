@@ -121,3 +121,64 @@ body {
     transition: all 0.3s ease;
   }
 }
+
+@media (max-width: 768px) {
+  .search-bar {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .display-info {
+    width: 90%;
+    flex-direction: column;
+    height: auto;
+    margin: 50px auto;
+    padding: 20px;
+  }
+
+  .display-info img {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 100px;
+  }
+
+  .display-info .info {
+    width: 100%;
+    margin: 20px 0 0 0;
+    text-align: center;
+  }
+
+  .display-info .info h2 {
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-title {
+    font-size: 1.5rem;
+    margin-top: 30px;
+  }
+
+  .search-bar input {
+    font-size: 14px;
+    padding: 8px 35px 8px 10px;
+  }
+
+  .search-bar button img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .display-info img {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .display-info .info h2 {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+}
